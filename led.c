@@ -1,6 +1,6 @@
 #include <LPC21xx.H>
 #include "Led.h" //Klaudia Bajur MTM
-
+//Proba o 22:09
 #define LED0_bm 	 (1<<16)
 #define LED1_bm 	 (1<<17)
 #define LED2_bm 	 (1<<18)
