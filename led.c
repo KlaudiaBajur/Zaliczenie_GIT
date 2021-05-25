@@ -5,14 +5,14 @@
 #define LED1_bm 	 (1<<17)
 #define LED2_bm 	 (1<<18)
 #define LED3_bm 	 (1<<19)
-
+//nowa zmiana
 enum StepsLeds{ToLeft, ToRight};
 
-void LedInit(){ //klaudia
+void LedInit(){ 
   IO1DIR = (IO1DIR | LED0_bm | LED1_bm | LED2_bm | LED3_bm);
   }
 
-void LedOn(unsigned char uc_Nr_LED){//pycias
+void LedOn(unsigned char uc_Nr_LED){
 	IO1CLR = (LED0_bm | LED1_bm | LED2_bm | LED3_bm);
 	switch(uc_Nr_LED){
 		case 0: IO1SET = LED0_bm;
