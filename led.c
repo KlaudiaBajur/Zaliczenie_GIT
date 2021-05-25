@@ -12,7 +12,7 @@ void LedInit(){ //klaudia
   IO1DIR = (IO1DIR | LED0_bm | LED1_bm | LED2_bm | LED3_bm);
   }
 
-void LedOn(unsigned char uc_Nr_LED){//bajur
+void LedOn(unsigned char uc_Nr_LED){//pycias
 	IO1CLR = (LED0_bm | LED1_bm | LED2_bm | LED3_bm);
 	switch(uc_Nr_LED){
 		case 0: IO1SET = LED0_bm;
