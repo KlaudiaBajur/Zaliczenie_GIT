@@ -8,7 +8,7 @@
 
 enum StepsLeds{ToLeft, ToRight};
 
-void LedInit(){
+void LedInit(){ //klaudia
   IO1DIR = (IO1DIR | LED0_bm | LED1_bm | LED2_bm | LED3_bm);
   }
 
