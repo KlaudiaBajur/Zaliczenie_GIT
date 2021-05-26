@@ -1,5 +1,5 @@
 #include "Led.h"
-#include "Keyboard.h" //Proba z bash
+#include "Keyboard.h" //Proba 2 z bash
 
 enum LedState {LED_LEFT, LED_RIGHT, LED_STOP};
 enum LedState eLedState = LED_STOP;
