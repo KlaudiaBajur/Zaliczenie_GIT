@@ -1,9 +1,9 @@
-#include <LPC21xx.H> 
+#include <LPC21xx.H> //proba z gitbash
 #include "Led.h" 
 #define LED0_bm 	 (1<<16)
 #define LED1_bm 	 (1<<17)
 #define LED2_bm 	 (1<<18)
-#define LED3_bm 	 (1<<19) //Bajur
+#define LED3_bm 	 (1<<19) 
 
 enum StepsLeds{ToLeft, ToRight};
 
