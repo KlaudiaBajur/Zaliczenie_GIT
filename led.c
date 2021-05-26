@@ -1,9 +1,9 @@
-#include <LPC21xx.H> //Klaudia Bajur 2:05
+#include <LPC21xx.H> 
 #include "Led.h" 
 #define LED0_bm 	 (1<<16)
 #define LED1_bm 	 (1<<17)
 #define LED2_bm 	 (1<<18)
-#define LED3_bm 	 (1<<19) 
+#define LED3_bm 	 (1<<19) //Bajur
 
 enum StepsLeds{ToLeft, ToRight};
 
