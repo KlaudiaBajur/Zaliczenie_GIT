@@ -1,4 +1,4 @@
-#include <LPC21xx.H> //Druga proba z bash
+#include <LPC21xx.H> //klaudia bajur 
 #include "Led.h" 
 #define LED0_bm 	 (1<<16)
 #define LED1_bm 	 (1<<17)
