@@ -1,4 +1,4 @@
-#include <LPC21xx.H> //klaudia bajur 
+#include <LPC21xx.H> // test kuba 
 #include "Led.h" 
 #define LED0_bm 	 (1<<16)
 #define LED1_bm 	 (1<<17)
